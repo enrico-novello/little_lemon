@@ -1,0 +1,193 @@
+/* Impostazioni base per il corpo */
+html, body {
+    height: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(6, 46, 44);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    margin: 1rem 1%; 
+}
+
+header {
+    border-bottom: 1px solid #eee2;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 100px;
+    font-size: xx-large;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container img {
+    height: 60px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.banner {
+    background-image: url(assets/Asset\ 9@4x.png);
+    background-size: cover;
+    background-position: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   text-align: center;
+}
+
+.banner .content {
+    font-size: 3em;
+}
+
+.navbar {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    visibility: visible;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 15px;
+    text-transform: uppercase;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    border-radius: 4px;
+}
+
+.navbar a:hover {
+    background: linear-gradient(360deg, #e4eb2a, #033207);
+    box-shadow: 0 0 15px rgb(220, 230, 24), 0 0 25px rgba(193, 241, 47, 0.3), 0 0 35px rgb(243, 223, 92);
+    transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+section {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+article {
+    flex: 1;
+    margin: 0 10px; 
+}
+
+footer {
+    border-top: 1px solid #eee2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    text-align: center;
+}
+
+footer p {
+    flex: 1;
+    margin: 0;
+}
+
+footer .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+footer .logo-container img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+ #benvenuti {
+    margin-top: 5%;
+    margin-bottom: 5% ;
+    background-image: url(assets/Asset\ 7@4x.png);
+    background-size: contain;
+    background-repeat: space;
+    background-position: center;
+}
+
+#benvenuti h1{
+   justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 30%;  
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.cards-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 10%;
+    background: radial-gradient(circle, rgba(90, 107, 97, 0.133), rgb(40, 112, 83));
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin: 20px 0;
+    color: #256a2b;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #ddd;
+}
+
